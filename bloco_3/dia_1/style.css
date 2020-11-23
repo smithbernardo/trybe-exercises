@@ -1,0 +1,86 @@
+
+
+h1{
+    color: rgb(89,61,59);
+    font-weight: 500;
+}
+h2{
+    font-size:30px;
+    color: rgb(138,121,104);
+    font-weight: 800;
+    
+}
+body{
+    background-color: rgb(229,212,195);
+    text-align: center;
+    color: rgb(203,153,126);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    
+    
+    
+}
+p{
+    line-height: 1.2;
+}
+hr{
+    width: 300px;
+   }
+h3{
+    font-family: sans-serif;
+    color: rgb(111,94,83);
+}
+
+ 
+
+#ulamigos {
+    color: rgb(203,153,126);
+    margin-left: 800px;
+    
+}
+
+#sobre {
+    text-align: center;
+    background-color: rgb(229,212,195);
+    width: 800px;
+    height: auto;
+    margin-left: 550px;
+    padding: 15px;
+}
+
+hr {
+    width: 300px;
+    }
+h3 {
+    font-family: 'Dosis';
+    color: rgb(89,61,59);
+    }
+h1 {
+    color: rgb(229,212,195);
+    font-weight: 500;
+    background-color: darkslategray;
+    width: 100%;
+    }
+#pessoasconhecidas {
+    
+    }
+h2 {
+    font-size:30px;
+    color: rgb(89,61,59);
+    font-weight: 800;
+    }
+.alinhamento{
+    text-align: center;
+    
+}
+body { 
+    background-color: rgb(138,121,104);
+    
+    color: rgb(203,153,126);
+    font-family: 'Dosis';
+    font-weight: 600; 
+    }   
+.foto{
+    border: 3px solid rgb(89,61,59);
+} 
+

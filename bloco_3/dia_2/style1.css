@@ -1,0 +1,10 @@
+h1 { 
+    font-size: 65px;
+    color: orange;
+}
+ul {
+    background-color: darkgreen;
+}
+.colorList {
+    background-color: rgb(218, 59, 59);
+}
