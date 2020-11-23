@@ -2,3 +2,19 @@ li {
     display: inline;
     margin-right: 2%;
 }
+h1{
+    text-align: center;
+}
+#p{
+margin-top: 5%;
+
+}
+
+#foto {
+    float: left;
+    padding: 5%;
+}
+#informacoes {
+    margin-top: 25%;
+}
+
