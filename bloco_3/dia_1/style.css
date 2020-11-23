@@ -8,6 +8,7 @@ h2{
     font-size:30px;
     color: rgb(138,121,104);
     font-weight: 800;
+    text-align: center;
     
 }
 h3 {
@@ -15,13 +16,7 @@ h3 {
     color: rgb(89,61,59);
     }
 
-body { 
-    background-color: rgb(138,121,104);
-        
-    color: rgb(203,153,126);
-    font-family: 'Dosis';
-    font-weight: 600; 
-    }   
+
     
 p{
     line-height: 1.2;
@@ -32,9 +27,9 @@ hr{
 
  
 
-#ulamigos {
+   #ulamigos {
     color: rgb(203,153,126);
-    margin-left: 800px;
+    margin-left: 45%;
     
     
 }
@@ -54,22 +49,24 @@ a:active{
     text-align: center;
     background-color: rgb(229,212,195);
     width: 1000px;
-    height: auto;
-    margin-left: 550px;
+    
+    margin-left: 18%;
     padding: 35px;
 }
 
-#pessoasconhecidas {
-    
-    }
-
 .alinhamento{
     text-align: center;
-    
 }
-
 .foto{
     border: 3px solid rgb(89,61,59);
     float: left;
-} 
+    text-align: center;
+    background-color: rgb(138,121,104);
+    padding: 35px;
+    width: 60%;
+    margin-left: 18%;
 
+} 
+#rodape {
+    background-color: peru;
+}
