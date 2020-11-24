@@ -16,24 +16,28 @@ table {
     
   }
   
-  td, th {
+td {
     border: 1px solid #7a7979;
     text-align: left;
     padding: 5px;
     border-top: 10%;
     
   }
- #footer{
-     margin-left: 40%;
- }
-  tr{
+th {
+    border: 1px solid #e7a1a1;
+    text-align: left;
+    padding: 5px;
+    border-top: 10%;
+    
+  }
+tr{
     background-color: #faf5f5;
     border-top: 10%;
 
   }   
 #p{
-margin-top: 5%;
-font-family: "Roboto Slab";
+    margin-top: 5%;
+    font-family: "Roboto Slab";
 ;
 
 }
@@ -49,7 +53,7 @@ body{
     margin-top: 25%;
     
 }
-#bloco1{
+#blocoz{
     margin: 5%;
     font-family: "Roboto Slab";
 
@@ -57,10 +61,21 @@ body{
     
 }
 
-#p2 {
+#p2{
         margin: 2%;
         font-family: "Roboto Slab";
         
+}
+
+#p12{
+    margin: 2%;
+    font-family: "Roboto Slab";
+    
+}
+#p7 {
+    margin: 2%;
+    font-family: "Roboto Slab";
+
 }
 #rf{
     text-align: center;
@@ -83,5 +98,33 @@ body{
 }
 #p1 img {
     float: left;
+    padding: 5%;
+    border: lightslategray;
+}
+#footer{
+    
+    border: 20pix;
+    padding: 20 px;
+    text-align: center;
+}
+.footer1 {
+    
+}
+
+a:link{
+    color: rgb(107,112,92);
+}
+a:visited{
+    color: rgb(107,112,92);
+}
+a:hover{
+    color: rgb(107,112,92);
+}
+a:active{
+    color: rgb(107,112,92);
+}
+.lip{
+    display: inline;
+    border: 20%;
 }
 
