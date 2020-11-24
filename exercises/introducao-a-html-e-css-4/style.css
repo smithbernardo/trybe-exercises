@@ -1,0 +1,130 @@
+li {
+    display: inline;
+    margin-right: 2%;
+}
+h1{
+    text-align: center;
+    border: gray solid 3px;
+    background-color: rgb(133,206,203);
+}
+    
+table {
+    font-family: arial, sans-serif;
+    border-top: 10%;
+    width: 100%;
+    float: top;
+    
+  }
+  
+td {
+    border: 1px solid #7a7979;
+    text-align: left;
+    padding: 5px;
+    border-top: 10%;
+    
+  }
+th {
+    border: 1px solid #e7a1a1;
+    text-align: left;
+    padding: 5px;
+    border-top: 10%;
+    
+  }
+tr{
+    background-color: #faf5f5;
+    border-top: 10%;
+
+  }   
+#p{
+    margin-top: 5%;
+    font-family: "Roboto Slab";
+;
+
+}
+body{
+    background-color: rgb(181,233,233);
+}
+#foto {
+    float: left;
+    padding: 5%;
+    border: lightslategray;
+}
+#informacoes {
+    margin-top: 25%;
+    
+}
+#blocoz{
+    margin: 5%;
+    font-family: "Roboto Slab";
+
+    
+    
+}
+
+#p2{
+        margin: 2%;
+        font-family: "Roboto Slab";
+        
+}
+
+#p12{
+    margin: 2%;
+    font-family: "Roboto Slab";
+    
+}
+#p7 {
+    margin: 2%;
+    font-family: "Roboto Slab";
+
+}
+#rf{
+    text-align: center;
+    height: 30px;
+    background-color: rgb(133,206,203);
+    font-size: large;
+}
+#rf li{
+    
+    margin-left: 30%;
+}
+#p2 img {
+    float: left;
+}
+#p1 {
+    margin: 2%;
+    font-family: "Roboto Slab";
+    
+    
+}
+#p1 img {
+    float: left;
+    padding: 5%;
+    border: lightslategray;
+}
+#footer{
+    
+    border: 20pix;
+    padding: 20 px;
+    text-align: center;
+}
+.footer1 {
+    
+}
+
+a:link{
+    color: rgb(107,112,92);
+}
+a:visited{
+    color: rgb(107,112,92);
+}
+a:hover{
+    color: rgb(107,112,92);
+}
+a:active{
+    color: rgb(107,112,92);
+}
+.lip{
+    display: inline;
+    border: 20%;
+}
+
