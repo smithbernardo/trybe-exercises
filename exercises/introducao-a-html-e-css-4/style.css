@@ -15,7 +15,12 @@ table {
     float: top;
     
   }
-  
+.sidebar{
+    float:right;
+    width:20%;
+    margin:5px;
+    border: 5px solid rgb(109, 114, 114);
+}
 td {
     border: 1px solid #7a7979;
     text-align: left;
