@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    <div class="main-content">
+      <div class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </div>
+    </div>
+    <script>
+        function meVejoDaquiADoisAnos(){
+            let paragraph = document.getElementsByTagName('p')[1];
+            paragraph.innerText = 'Me vejo um profissional bem sucedido, fazendo o que gosto!!!';
+        }
+
+        function quadradoCorVerde(){
+            let quadradoAmarelo = document.getElementsByClassName('main-content')[0];
+            quadradoAmarelo.innerHTML.style.backgroundColor = 'rgb(76,164,109)';
+        }
+        
+        function quadradoFundoBranco(){
+            let fundoBranco = document.getElementsByClassName('center-content')[0];
+            fundoBranco.style.backgroundColor = 'white';
+        }
+        function correcaoTitulo(){
+            let novoTitulo = document.getElementsByName('title')[0];
+            novoTitulo.innerText = 'Exercício 5.1 - JavaScript';
+        }
+        function upperCase(){
+            let letraMaiuscula = ocument.getElementsByTagName('p')[2];
+            letraMaiuscula.innerHTML = letraMaiuscula.innerHTML.toUpperCase();
+        }
+        function noConsole(){
+            let naTela= document.getElementsByTagName('p');
+            for (i =0; i< naTela.length; i +=1){
+                console.log(naTela[i].innerHTML);
+            };
+        }
+        
+        
+        d = p[2].toUpperCase();
+        /*
+        Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
+        - document.getElementById()
+        - document.getElementsByClassName()
+        - document.getElementsByTagName()
+ 
+ 
+ 
+ 
+ 
+        */
+    </script>
+  </body>
+</html>
