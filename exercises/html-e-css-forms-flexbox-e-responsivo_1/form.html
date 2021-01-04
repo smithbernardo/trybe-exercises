@@ -28,7 +28,7 @@
         <input type="text" id="cidade" maxlength="28" required placeholder="Digite sua cidade:">
         <br>
         <label for="input-estado">Estado: 
-        <select name="estado" id="input-estado" required>  
+        <select name="estado" id="input-estado" selected>  
           <option value="sp">São Paulo</option>
           <option value="rj">Rio de Janeiro</option>
           <option value="mg">Minas Gerais</option>
@@ -36,8 +36,13 @@
           <option value="pe">Pernambuco</option>
         </select> </label>
         <br>
-        <p>Complemento: <label for="apto"><input type="radio" name="complemento" id="apto" value="apartamento" required checked> Apto</label>
-            <label for="casa"><input type="radio" name="complemento" id="casa" value="casa" required> Casa </label><br>
+        <p>Complemento:  Apto
+            <label for="apto">
+                <input type="radio" name="complemento" id="apto" value="apartamento" required checked>
+            </label>
+            <label for="casa">Casa 
+                <input type="radio" name="complemento" id="casa" value="casa" required>
+            </label><br>
         </div>
         </fieldset></p>
         <br>
@@ -47,13 +52,19 @@
         <p>Digite informações de seu último emprego:</p>
         <textarea name="infoProf" id="textarea-1" cols="30" rows="10" maxlength="1000" required></textarea>
         <br>
-        <label for="cargo">Último cargo: <input type="text" id="cargo" maxlength="40" required placeholder="Qual foi se último cargo"> </label>
+        <label for="cargo">Último cargo:
+        <input type="text" id="cargo" maxlength="40" required placeholder="Qual foi se último cargo">
+        </label>
         <br>
-        <label for="descricao-cargo">Descrição do cargo: <input type="text" id="descricao-cargo" maxlength="500" required placeholder="Descreva suas atribuições:"> </label>
+        <label for="descricao-cargo">Descrição do cargo:
+        <input type="text" id="descricao-cargo" maxlength="500" required placeholder="Descreva suas atribuições:">
+        </label>
         <br>
         <br>
-        <label for="data">Data de início: <input type="date" id="data" required value="2021-01-03"> </label>
-        <br>
+        <label for="data">Data de início: 
+        <input type="date" id="data" required value="2021-01-03">
+        </label>        
+        <button type="submit" id="butao-envio">Enviar</button>
     </div>
     </fieldset>
 </form>
