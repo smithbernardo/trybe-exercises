@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Currículo</title>
 </head>
-<body>
-    <header id="cabecalho"><h1>Curriculo<span id="colorido-nome">Vitae</span> Form</h1></header>
-    <form action="" method="get">
+<body class="">
+    <header class="" id="cabecalho"><h1 class="display-4">Curriculo<span id="colorido-nome">Vitae</span> Form</h1></header>
+    <form class="form-control form-group " action="" method="get">
     <fieldset class="estilo">
         <legend>Informações Pessoais: </legend><br>
-        <div class="labels">
+        <div class="labels form-control-color">
         <label for="nome">Nome: </label>
-        <input type="text" id="nome" maxlength="40" required placeholder="Digite seu nome:">
+        <input type="text" id="nome"  maxlength="40" required placeholder="Digite seu nome:">
         <br>
+        
         <label for="email">Email:</label>
+        
         <input type="text" id="email" maxlength="50" required placeholder="Digite seu Email:">
         <br>
         <label for="cpf">CPF:</label>
@@ -27,13 +31,15 @@
         <label for="cidade">Cidade:</label>
         <input type="text" id="cidade" maxlength="28" required placeholder="Digite sua cidade:">
         <br>
+        </div>
         <label for="input-estado">Estado: 
-        <select name="estado" id="input-estado" selected>  
+        <select class="form-select form-group" name="estado" id="input-estado" selected>  
           <option value="sp">São Paulo</option>
           <option value="rj">Rio de Janeiro</option>
           <option value="mg">Minas Gerais</option>
           <option value="pb">Paraiba</option>
           <option value="pe">Pernambuco</option>
+
         </select> </label>
         <br>
         <p>Complemento:  Apto
@@ -43,13 +49,14 @@
             <label for="casa">Casa 
                 <input type="radio" name="complemento" id="casa" value="casa" required>
             </label><br>
-        </div>
+        
         </fieldset></p>
         <br>
     <fieldset class="estilo">
         <legend>Última Experiência: </legend><br>
-        <div class="labels">
         <p>Digite informações de seu último emprego:</p>
+        <div class="labels form-control-color">
+       
         <textarea name="infoProf" id="textarea-1" cols="30" rows="10" maxlength="1000" required></textarea>
         <br>
         <label for="cargo">Último cargo:
@@ -63,11 +70,15 @@
         <br>
         <label for="data">Data de início: 
         <input type="date" id="data" required value="2021-01-03">
-        </label>        
-        <button type="submit" id="butao-envio">Enviar</button>
+        <input type="text" id="datepicker">    
+    </label>        
+        <button class="btn btn-success " type="submit" id="butao-envio">Enviar</button>
+        <button class="btn btn-success " >Limpar </button>
     </div>
     </fieldset>
 </form>
-   <script src="script.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+<script src="jquery-3.5.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
