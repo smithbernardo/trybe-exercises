@@ -1,0 +1,35 @@
+
+<!--Crie uma página que contenha:
+//Um botão ao qual será associado um event listener ;
+//Uma variável clickCount no arquivo JavaScript que acumule o número de clicks no botão;
+//Um campo no HTML que vá atualizando a quantidade de clicks no botão conforme a variável clickCount é atualizada.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=script, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="botao" type="submit">Click aqui!!!</button>
+    <div id="count"></div>
+    <script>
+let botao = document.getElementById('botao');
+botao.addEventListener('click', ()=> {
+      if (typeof (Storage) != "undefined") {
+        if(localStorage.count !== undefined) {
+          let count = parseInt(localStorage.count);
+          count+=1;
+          localStorage.count = count;
+          document.getElementById("count").innerHTML = count;
+        } else {
+          localStorage.count = 1;
+          document.getElementById("count").innerHTML = 1;
+        }
+      } else {
+        document.write("Sem suporte para Web Storage");
+      } 
+    })  
+    </script>
+</body>
+</html>
